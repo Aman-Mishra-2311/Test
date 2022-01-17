@@ -58,10 +58,10 @@ public class PubSubToBQ {
     }
 
     public static PipelineResult run(PipelineOptions options) {
-        String inputTopic="projects/nttdata-c4e-bde/topics/uc1-input-topic-16";
-        String subscriptionData="projects/nttdata-c4e-bde/subscriptions/uc1-input-topic-sub-16";
-        String outputBigQueryTable="nttdata-c4e-bde:uc1_16.account";
-        String dlqTopic="projects/nttdata-c4e-bde/topics/uc1-dlq-topic-16";
+        String inputTopic="projects/nttdata-c4e-bde/topics/uc1-input-topic-15";
+        String subscriptionData="projects/nttdata-c4e-bde/subscriptions/uc1-input-topic-sub-15";
+        String outputBigQueryTable="nttdata-c4e-bde:uc1_15.account";
+        String dlqTopic="projects/nttdata-c4e-bde/topics/uc1-dlq-topic-15";
 
         //set job name
         options.setJobName(options.getJobName());
